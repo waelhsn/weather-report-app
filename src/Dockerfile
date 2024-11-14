@@ -4,10 +4,10 @@ FROM node:18
 # Set the working directory inside the container
 WORKDIR /app
 
-COPY package*.json ./
+COPY src/package.json ./
 
 # Install dependencies
-RUN npm install --verbose
+RUN npm install
 
 # Copy the rest of the application code to the container
 COPY . .
@@ -21,4 +21,4 @@ ENV NODE_ENV=production
 ENV API_KEY=your_openweather_api_key_here
 
 # Command to run the application
-CMD ["node", "server.js"]
+CMD ["node", "./server.js"]
