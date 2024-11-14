@@ -5,7 +5,8 @@ FROM node:18
 WORKDIR /app
 
 # Copy package.json and package-lock.json (if available) to the container
-COPY package*.json ./
+COPY package.json . 
+COPY package-lock.json . # This will fail if package-lock.json is not present, helping identify the issue.
 
 # Install dependencies
 RUN npm install
