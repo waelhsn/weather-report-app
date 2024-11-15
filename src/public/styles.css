@@ -16,7 +16,7 @@ body {
 
 h1 {
     text-align: center;
-    color: #59e0ac;
+    color: #04d160;
     margin-top: 0;
     font-size: 2em;
     text-shadow: 0 2px 4px rgba(26, 22, 22, 0.2);
@@ -36,8 +36,8 @@ h1 {
     max-width: 800px;
     width: 90%;
     margin: 20px auto;
-    background: #c51212;
-    border: 2px solid #00FF00;
+    background: #0b90c5;
+    border: 2px solid #0b90c5;
     border-radius: 5px;
     padding: 20px;
     color: #00FF00;
@@ -46,7 +46,7 @@ h1 {
 
 .cmd-text {
     font-family: 'Courier New', Courier, monospace;
-    color: #00FF00;
+    color: #0b90c5;
     white-space: pre-wrap;
 }
 
@@ -59,16 +59,16 @@ table {
 th, td {
     padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #2c3e50;
+    border-bottom: 1px solid #0b90c5;
 }
 
 th {
-    background: #2c3e50;
+    background: black;
     color: #ffffff;
 }
 
 tr:hover {
-    background: #3b5998;
+    background: black;
     color: #ffffff;
 }
 
