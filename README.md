@@ -1,6 +1,6 @@
 # Weather Report
 
-
+[![Docker Image CI](https://github.com/waelhsn/weather-report-app/actions/workflows/docker-image.yml/badge.svg)](https://github.com/waelhsn/weather-report-app/actions/workflows/docker-image.yml)
 
 ## Prerequisites
 
