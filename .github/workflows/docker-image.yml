@@ -24,11 +24,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build and Tag Docker Image
-<<<<<<< HEAD
       run: docker build . --file src/Dockerfile --tag ${{ secrets.DOCKER_USERNAME }}/report-weather-app:latest
-=======
-      run: docker build -t ${{ secrets.DOCKER_USERNAME }}/report-weather-app:latest .
->>>>>>> 706cbcfb523131a35285e0c8e994e540fe6b3fdd
 
     - name: Push Docker Image to DockerHub
       run: docker push ${{ secrets.DOCKER_USERNAME }}/report-weather-app:latest
